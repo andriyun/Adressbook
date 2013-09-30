@@ -1,0 +1,1 @@
+<p><?=$this->text_notfound_text?></p>

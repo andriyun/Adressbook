@@ -1,0 +1,3 @@
+	<td class="t-center selectedCheckboxTd"><input type="checkbox" class="selectedCheckbox" name="selected[]" value="<?=$this->item['id']?>"/></td>
+	<td class="t-left" onclick="viewItem(<?=$this->item['id']?>)"><a href="javascript:void(0)" onclick="viewItem(<?=$this->item['id']?>)"><?=$this->item['name']?></a></td>
+	<td class="t-center editTd" onclick="_ajax.load('<?php echo SITE_URL?>/contacts/edit/<?php echo $this->item['id'];?>','#main');" ><i class="icon-pencil"></i></td>
